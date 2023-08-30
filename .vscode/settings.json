@@ -1,0 +1,4 @@
+{
+    "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+    "rust-analyzer.server.extraEnv": { "API_ROOT": "http://localhost:8000" }
+}

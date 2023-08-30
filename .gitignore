@@ -1,0 +1,12 @@
+/target
+/.cargo
+
+transactions
+version
+
+# nix-shell
+.history
+
+# nix-build
+/result
+/result-2

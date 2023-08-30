@@ -1,0 +1,21 @@
+[package]
+name = "iloveu-yew"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20", features = ["csr"] }
+yew-router = "0.17"
+log = "0.4"
+wasm-logger = "0.2"
+web-sys = { version = "0.3", features = ["HtmlSelectElement", "HtmlOptionElement"] }
+gloo-net = "0.2"
+gloo-storage = "0.2"
+base64 = "0.21"
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+js-sys = "0.3"
+serde_json = "1.0"
+serde = "1.0"

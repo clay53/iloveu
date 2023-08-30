@@ -1,0 +1,67 @@
+body {
+    background-color: #ffe1e1;
+    background-image: url("/hearts-background.svg");
+    background-size: 80rem;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: xx-large;
+    background-color: #fdf6f6;
+    padding: 0.5rem;
+    border-bottom: 1px #ffa2a2 dashed;
+}
+
+nav a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.nav-item-selected a {
+    color: #4fc97c;
+}
+
+#content {
+    padding: 0.5rem;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem 0.5rem;
+}
+
+.media h2 {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0;
+    padding: 0.3rem 0.3rem 0.6rem 0.3rem;
+}
+
+.media p {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0;
+    padding: 0.6rem 0.3rem 0.3rem 0.3rem;
+}
+
+.media-img {
+    width: 100%;
+}
+
+.media-video {
+    width: 100%;
+}
+
+@media(min-width: 40rem) {
+    .media-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 80rem) {
+    .media-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
