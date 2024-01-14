@@ -1,5 +1,5 @@
 let
-    pkgs = import <nixpkgs> {
+    pkgs = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/refs/tags/23.05.tar.gz") {
         overlays = [
             (import (fetchTarball "https://github.com/oxalica/rust-overlay/archive/master.tar.gz"))
         ];
